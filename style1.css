@@ -1,0 +1,80 @@
+ul{
+	color:gainsboro;
+	list-style-type:none;
+	margin:0;
+	text-shadow:1px 1px 1px black;
+	background:linear-gradient(to bottom, rgba(0,0,0,0.25),rgba(0,0,0,0.1));
+	padding: 3px;
+	text-align: center;
+	box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5),inset -2px -2px 5px rgba(255,255,255,0.5);
+}
+a
+{
+display:block;
+width:258px;
+}
+li
+{
+	float:left;
+	display:inline;
+}
+h1{
+	color:gainsboro;
+	text-shadow:1px 1px 1px black;
+	background:linear-gradient(to bottom, rgba(0,0,0,0.25),rgba(0,0,0,0.1));
+	padding: 3px;
+	text-align: center;
+	box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5),inset -2px -2px 5px rgba(255,255,255,0.5);
+}
+body{
+	background:white;
+	padding:10px;
+	width:70%;
+	max-width:800px;
+	min-width:800px;
+	margin:0 auto;
+}
+h2{
+	color:lightseagreen;
+	border:1px solid gainsboro;
+	background-color:#f0ffff;
+}
+div{
+	background:url(1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+p{
+	color:darkslategray;
+	font-family:sans-serif;
+	padding:20px;
+	background-image:url();
+}
+
+p,li{
+	text-decoration:underline;
+}
+img{
+	display:block;
+	margin:0 auto;/*前两条样式规则可以使它的展示行为像一个块元素并且在父容器内居中*/
+	max-width:100%;/*限制了图像的宽度使它的最大宽度与父容器的宽度相等。
+	因此，当父容器宽度缩小到小于图像的宽度时，图像会一起缩小*/
+}
+#leftBodyer {
+ width:160px;
+ text-align:left;
+ float:left;
+ clear:left;
+ overflow:hidden;
+background-color: #66cc33;
+}
+#mainBodyer
+{
+    width: 570px;
+    text-align: left;
+    float: right;
+    clear: right;
+    overflow: hidden;
+    background-color: #ff9933;
+}
