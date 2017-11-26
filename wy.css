@@ -1,0 +1,119 @@
+ul{
+	color:#e0ffff;
+	list-style-type:none;
+	margin:0;
+	text-shadow:1px 1px 1px #00ffff;
+	padding: 10px;
+	text-align: center;
+	box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5),inset -2px -2px 5px rgba(255,255,255,0.5);
+}
+a{line-height:50px; margin: 25px;
+	padding:5px 10px 5px 10px;
+	border-radius: 15px;
+	text-decoration: none;
+	transition: all .3s;
+	cursor:pointer;
+}
+a:hover{
+	box-shadow: 1px 4px 20px lightgray;
+}
+li
+{
+	float:left;
+}
+h1{
+	color:powderblue;
+	text-shadow:1px 1px 1px lightblue;
+	background:white(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0.25));
+	padding: 3px;
+	text-align: center;
+	box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5),inset -2px -2px 5px rgba(255,255,255,0.5);
+}
+#p1{color: lightseagreen;}
+
+#p2{color: lightseagreen;}
+
+#p3{color: lightseagreen;}
+
+#p4{color: lightseagreen;}
+
+#p5{color: lightseagreen;}
+
+#p6{color:lightseagreen;text-align: center;}
+#id1{
+	padding: 20px;
+	border:1px solid lavenderblush;
+	height:1500px;
+	margin: 30px;
+}
+#id2{
+	text-align: center;
+	border:1px solid lavenderblush;
+	padding: 30px;
+	margin-left: 190px;
+	margin-right: 0px;
+	overflow: scroll;
+	height:500px;
+	color:	#F08080;
+	padding-bottom: 10px;
+	box-shadow: 10px 10px 20px lightblue;
+
+}
+#id8{
+	border:1px solid lavenderblush;
+	padding: 20px;
+	margin-left: 270px;
+	margin-right: 190px;
+	overflow: scroll;
+	height:400px;
+	color:	#F08080;
+	margin: 30px;
+	padding-bottom: 10px;
+	box-shadow: 10px 10px 20px lightblue;
+}
+#id3{
+	float: left;
+	border:1px solid lavenderblush;
+	padding: 20px 20px 0 20px;
+	width: 200px;
+	height: 500px;
+}
+#id4{
+	float:right;
+	border:1px solid lavenderblush;
+	padding: 20px 20px 0px 20px;
+	width: 100px;
+	height:580px;
+}
+.id5{
+	width: 80px;
+	height: 80px;
+	border:1px solid lavenderblush;
+	margin-bottom: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+#id6{
+	top: 0px;
+	color:lightseagreen;
+}
+#id9{
+	border:1px solid lavenderblush;
+	padding: 20px;
+	margin-left: 270px;
+	margin-right: 190px;
+	height:400px;
+	color:	#F08080;
+	margin: 30px;
+	padding-bottom: 10px;
+	box-shadow: 10px 10px 20px lightblue;
+}
+#c {
+	padding: 20px;
+}
+
+#c p {
+	color: black;
+	font-size: 20px;
+}
